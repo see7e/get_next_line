@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gabrodri <gabrodri@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/08 09:38:24 by gabrodri          #+#    #+#             */
+/*   Updated: 2023/11/08 09:52:07 by gabrodri         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "get_next_line.h"
 
 // Utils
@@ -61,12 +73,12 @@ void	*ft_memcpy(void *target, const void *source, size_t n)
 
 char *ft_strcat(char *dest, const char *src)
 {
-    size_t dest_len = ft_strlen(dest);
-    size_t src_len = ft_strlen(src);
-    
-    ft_memcpy(dest + dest_len, src, src_len + 1); // Copy including the null terminator
-    
-    return (dest);
+	size_t dest_len = ft_strlen(dest);
+	size_t src_len = ft_strlen(src);
+	
+	ft_memcpy(dest + dest_len, src, src_len + 1); // Copy including the null terminator
+	
+	return (dest);
 }
 
 static char	*ft_strjoin(const char *s1, const char *s2)

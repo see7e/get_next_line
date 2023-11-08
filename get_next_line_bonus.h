@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gabrodri <gabrodri@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/08 09:38:20 by gabrodri          #+#    #+#             */
+/*   Updated: 2023/11/08 09:48:03 by gabrodri         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
 
@@ -11,9 +23,9 @@
 # endif
 
 typedef struct s_fd_data {
-    int fd;
-    char *left_str;
-    struct s_fd_data *next;
+	int fd;
+	char *left_str;
+	struct s_fd_data *next;
 } t_fd_data;
 
 

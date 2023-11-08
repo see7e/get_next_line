@@ -1,0 +1,155 @@
+@see7e ➜ /workspaces/get_next_line (42) $ ~/francinette/tester.sh
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                Welcome to Francinette, a 42 tester framework!                ║
+╚═══════════════════════╦══════════════════════════════╦═══════════════════════╝
+                        ║         get_next_line        ║
+                        ╚══════════════════════════════╝
+✔ Preparing framework
+✖ Executing: norminette
+get_next_line_utils_bonus.c: Error!
+Error: SPACE_REPLACE_TAB    (line:  19, col:  15):      Found space when expecting tab
+Error: RETURN_PARENTHESIS   (line:  26, col:  26):      Return value must be in parenthesis
+Error: SPACE_BEFORE_FUNC    (line:  43, col:   5):      space before function name
+Error: TOO_FEW_TAB          (line:  45, col:   1):      Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  45, col:   5):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  45, col:  11):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  45, col:  21):      Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line:  46, col:   1):      Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  46, col:   5):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  46, col:  11):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  46, col:  20):      Declaration and assignation on a single line
+Error: SPACE_EMPTY_LINE     (line:  47, col:   1):      Space on empty line
+Error: TOO_FEW_TAB          (line:  48, col:   1):      Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  48, col:   5):      Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  48, col:  51):      line too long
+Error: WRONG_SCOPE_COMMENT  (line:  48, col:  51):      Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  48, col:  51):      Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  48, col:  88):      line too long
+Error: EMPTY_LINE_FUNCTION  (line:  49, col:   1):      Empty line in function
+Error: SPACE_EMPTY_LINE     (line:  49, col:   1):      Space on empty line
+Error: TOO_FEW_TAB          (line:  50, col:   1):      Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  50, col:   5):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  55, col:  11):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  56, col:  11):      Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line:  60, col:   1):      Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  61, col:   1):      Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  61, col:   9):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  61, col:  10):      Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  61, col:  15):      Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  65, col:   1):      Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  68, col:   1):      Empty line in function
+Error: SPACE_REPLACE_TAB    (line:  74, col:  11):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  74, col:  17):      Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  75, col:   9):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  75, col:  10):      Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  75, col:  15):      Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  79, col:   1):      Empty line in function
+get_next_line.c: Error!
+Error: ASSIGN_IN_CONTROL    (line:  27, col:  60):      Assignment in control structure
+Error: LINE_TOO_LONG        (line:  27, col:  86):      line too long
+get_next_line_utils.c: Error!
+Error: SPACE_REPLACE_TAB    (line:  29, col:   9):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  29, col:  10):      Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line:  50, col:  15):      Found space when expecting tab
+Error: RETURN_PARENTHESIS   (line:  57, col:  26):      Return value must be in parenthesis
+Error: SPACE_BEFORE_FUNC    (line:  74, col:   5):      space before function name
+Error: SPACE_REPLACE_TAB    (line:  76, col:  11):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  76, col:  21):      Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  77, col:  11):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  77, col:  20):      Declaration and assignation on a single line
+Error: SPACE_EMPTY_LINE     (line:  78, col:   1):      Space on empty line
+Error: LINE_TOO_LONG        (line:  79, col:  51):      line too long
+Error: WRONG_SCOPE_COMMENT  (line:  79, col:  51):      Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  79, col:  51):      Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  79, col:  88):      line too long
+Error: EMPTY_LINE_FUNCTION  (line:  80, col:   1):      Empty line in function
+Error: SPACE_EMPTY_LINE     (line:  80, col:   1):      Space on empty line
+Error: TOO_MANY_FUNCS       (line:  84, col:   1):      Too many functions in file
+Error: SPACE_REPLACE_TAB    (line:  86, col:  11):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  87, col:  11):      Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line:  91, col:   1):      Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  92, col:   1):      Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  92, col:   9):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  92, col:  10):      Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  92, col:  15):      Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  96, col:   1):      Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  99, col:   1):      Empty line in function
+Error: TOO_MANY_FUNCS       (line: 103, col:   1):      Too many functions in file
+Error: SPACE_REPLACE_TAB    (line: 105, col:  11):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line: 105, col:  17):      Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line: 106, col:   9):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 106, col:  10):      Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 106, col:  15):      Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line: 110, col:   1):      Empty line in function
+Error: BRACE_SHOULD_EOL     (line: 113, col:   1):      Expected newline after brace
+get_next_line_bonus.h: Error!
+Error: SPACE_REPLACE_TAB    (line:  26, col:   8):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  27, col:   9):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  27, col:  10):      Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line:  28, col:  21):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  28, col:  22):      Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line:  29, col:   2):      Found space when expecting tab
+Error: CONSECUTIVE_NEWLINES (line:  31, col:   1):      Consecutive newlines
+Error: SPACE_REPLACE_TAB    (line:  32, col:   5):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  35, col:  17):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  36, col:  17):      Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  37, col:  11):      Found space when expecting tab
+Error: MISALIGNED_FUNC_DECL (line:  42, col:  10):      Misaligned function declaration
+Error: MISALIGNED_FUNC_DECL (line:  43, col:  10):      Misaligned function declaration
+Error: MISALIGNED_FUNC_DECL (line:  44, col:  14):      Misaligned function declaration
+Error: MISALIGNED_FUNC_DECL (line:  45, col:  14):      Misaligned function declaration
+get_next_line.h: Error!
+Error: LINE_TOO_LONG        (line:  19, col: 105):      line too long
+Error: MISALIGNED_FUNC_DECL (line:  28, col:  13):      Misaligned function declaration
+Error: MISALIGNED_FUNC_DECL (line:  29, col:  13):      Misaligned function declaration
+Error: MISALIGNED_FUNC_DECL (line:  32, col:  17):      Misaligned function declaration
+Error: SPC_AFTER_POINTER    (line:  34, col:   5):      space after pointer
+get_next_line_bonus.c: Error!
+Notice: GLOBAL_VAR_DETECTED  (line:  15, col:   1):     Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  15, col:  17):      Found space when expecting tab
+Error: GLOBAL_VAR_NAMING    (line:  15, col:  19):      Global variable must start with g_
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  17):      space before function name
+Error: SPACE_REPLACE_TAB    (line:  19, col:  14):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  19, col:  24):      Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line:  20, col:   1):      Variable declarations must be followed by a newline
+Error: SPACE_BEFORE_FUNC    (line:  29, col:  17):      space before function name
+Error: SPACE_REPLACE_TAB    (line:  31, col:  14):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  31, col:  28):      Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line:  32, col:   1):      Variable declarations must be followed by a newline
+Error: SPACE_BEFORE_FUNC    (line:  40, col:  11):      space before function name
+Error: SPACE_REPLACE_TAB    (line:  42, col:   8):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  42, col:  20):      Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line:  43, col:   1):      Variable declarations must be followed by a newline
+Error: SPACE_BEFORE_FUNC    (line:  51, col:   5):      space before function name
+Error: EMPTY_LINE_FUNCTION  (line:  55, col:   1):      Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  56, col:   1):      Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  56, col:  14):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  56, col:  24):      Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  65, col:   1):      Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  66, col:   1):      Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  66, col:   8):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  66, col:   9):      Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  66, col:  20):      Declaration and assignation on a single line
+Error: LINE_TOO_LONG        (line:  66, col:  83):      line too long
+Error: WRONG_SCOPE_VAR      (line:  71, col:   1):      Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  71, col:  17):      Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  71, col:  24):      Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  77, col:   1):      Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  78, col:   1):      Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  78, col:   9):      Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  78, col:  10):      Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  78, col:  16):      Declaration and assignation on a single line
+Error: TOO_MANY_LINES       (line:  82, col:   1):      Function has more than 25 lines
+
+✖ Executing: make fclean bonus
+In file included from get_next_line_bonus.c:13:
+get_next_line_bonus.h:44:14: error: ‘ft_strjoin’ used but never defined [-Werror]
+   44 | static char *ft_strjoin(const char *s1, const char *s2);
+      |              ^~~~~~~~~~
+get_next_line_bonus.h:45:14: error: ‘ft_strdup’ declared ‘static’ but never defined [-Werror=unused-function]
+   45 | static char *ft_strdup(const char *s);
+      |              ^~~~~~~~~
+cc1: all warnings being treated as errors
+make: *** [<builtin>: get_next_line_bonus.o] Error 1
+
+Problem creating the library
