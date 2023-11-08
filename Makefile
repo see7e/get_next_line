@@ -6,7 +6,7 @@
 #    By: gabrodri <gabrodri@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/08 09:38:38 by gabrodri          #+#    #+#              #
-#    Updated: 2023/11/08 09:44:37 by gabrodri         ###   ########.fr        #
+#    Updated: 2023/11/08 10:01:54 by gabrodri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,9 +24,9 @@ PART	= get_next_line.c \
 OBJ		= $(PART:.c=.o)
 
 # Bonus part
-BONUS   = get_next_line_bonus.c \
-		get_next_line_utils_bonus.c
-OBJ_BONUS = $(BONUS:.c=.o)
+# BONUS   = get_next_line_bonus.c \
+# 		get_next_line_utils_bonus.c
+# OBJ_BONUS = $(BONUS:.c=.o)
 
 # Rules
 all: $(NAME)
@@ -37,11 +37,11 @@ $(NAME): $(OBJ)
 	@echo "------------------------------------"
 	ar rcs $(NAME) $(OBJ)
 
-bonus: $(OBJ_BONUS)
-	@echo "------------------------------------"
-	@echo "Compiling get_next_line Bonus Part"
-	@echo "------------------------------------"
-	ar rcs $(NAME) $(OBJ) $(OBJ_BONUS)
+# bonus: $(OBJ_BONUS)
+# 	@echo "------------------------------------"
+# 	@echo "Compiling get_next_line Bonus Part"
+# 	@echo "------------------------------------"
+# 	ar rcs $(NAME) $(OBJ) $(OBJ_BONUS)
 
 # Add a target to run tests using the test.sh script
 test: all

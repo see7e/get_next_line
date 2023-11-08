@@ -72,3 +72,6 @@ rm "$input_file"
 
 # Clean up by removing the compiled program
 rm gnl_test
+
+# Clean the output files
+make fclean
